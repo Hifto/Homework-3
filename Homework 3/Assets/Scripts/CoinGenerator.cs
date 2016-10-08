@@ -33,10 +33,10 @@ public class CoinGenerator : MonoBehaviour {
     public void AddPiece()
     {
     }
-}
 
     // Update is called once per frame
-    void Update () {
-	
-	}
+    void Update()
+    {
+
+    }
 }
