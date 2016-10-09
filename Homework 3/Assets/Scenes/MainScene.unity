@@ -1039,7 +1039,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22452780, guid: 2bd63ae78076d4adb8476d8a3fe81277, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22418452, guid: 2bd63ae78076d4adb8476d8a3fe81277, type: 2}
       propertyPath: m_SizeDelta.x
@@ -1047,7 +1047,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22418452, guid: 2bd63ae78076d4adb8476d8a3fe81277, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22475198, guid: 2bd63ae78076d4adb8476d8a3fe81277, type: 2}
       propertyPath: m_SizeDelta.x
@@ -1055,7 +1055,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22475198, guid: 2bd63ae78076d4adb8476d8a3fe81277, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 146
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22345870, guid: 2bd63ae78076d4adb8476d8a3fe81277, type: 2}
       propertyPath: m_Enabled
@@ -2258,7 +2258,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 489040793}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6be9d1e37dc014c2ca33db0d84f9faa8, type: 3}
+  m_Script: {fileID: 11500000, guid: 78432153200ad994b80077bdc603e383, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelPrefabs:
@@ -2274,7 +2274,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 489040793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.33, y: -2.79, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -6692,7 +6692,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22423696, guid: 6253ae2dfd52c459a825a39575bb3087, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 129.08936
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22472228, guid: 6253ae2dfd52c459a825a39575bb3087, type: 2}
       propertyPath: m_SizeDelta.x
@@ -6700,7 +6700,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22472228, guid: 6253ae2dfd52c459a825a39575bb3087, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 22.059574
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6253ae2dfd52c459a825a39575bb3087, type: 2}
