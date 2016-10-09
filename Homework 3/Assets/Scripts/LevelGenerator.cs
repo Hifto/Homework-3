@@ -61,7 +61,7 @@ public class LevelGenerator : MonoBehaviour {
         var secondStartPos = GameObject.Find("startPointTwo");
         Vector2 secondPos = new Vector2(secondStartPos.transform.position.x + 1, secondStartPos.transform.position.y + 1.5f);
 
-        if (nextLevelTrack == 2)
+        if (nextLevelTrack == 7)
         {
             GameManager.instance.nextLevelCanvas.enabled = true;
             GameManager.instance.currentGameState = GameState.nextLevel;

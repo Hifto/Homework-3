@@ -9,6 +9,7 @@ public class LeaveTrigger : MonoBehaviour {
 		LevelGenerator.instance.AddPiece();
 		LevelGenerator.instance.RemoveOldestPiece();
         LevelGenerator.instance.NextLevel();
+        CoinGenerator.instance.AddPiece();
 
         //Speed up game
         if (PlayerController.instance.runningSpeed <= 5)

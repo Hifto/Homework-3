@@ -4,34 +4,24 @@ using System.Collections;
 public class CoinGenerator : MonoBehaviour {
 
     public static CoinGenerator instance;
-    //coin blueprint
-    public CoinPiece coinBlueprint = new CoinPiece();
-    //starting coin location
-    public Transform coinStartSpot;
-    //all coins in the level so far
-    public CoinPiece coinPieces = new CoinPiece();
 
     void Awake()
     {
         instance = this;
     }
 
-    // Use this for initialization
-    void Start ()
-    {
-        GenerateInitialPieces();	
-	}
-
-    public void GenerateInitialPieces()
-    {
-        for (int i = 0; i < 2; i++)
-        {
-            AddPiece();
-        }
-    }
-
     public void AddPiece()
     {
+        var coin = GameObject.Find("Coin");
+
+        for (int count = 0; count <= 6; count++)
+        {
+            int randomX = Random.Range((int)PlayerController.instance.transform.position.x + 3, (int)PlayerController.instance.transform.position.x + 20);
+            int randomY = Random.Range((int)PlayerController.instance.transform.position.y, (int)PlayerController.instance.transform.position.y + 5);
+            var pos = new Vector3(randomX, randomY, 0);
+            Instantiate(coin, pos, Quaternion.identity);
+        }
+
     }
 
     // Update is called once per frame
